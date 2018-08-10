@@ -1,0 +1,39 @@
+[[plugins]]
+repo = 'Shougo/vimproc.vim'
+
+[[plugins]]
+repo = 'Shougo/neosnippet-snippets'
+
+[[plugins]]
+repo = 'cespare/vim-toml'
+on_ft = 'toml'
+
+[[plugins]]
+repo = 'Shougo/denite.nvim'
+
+[[plugins]]
+repo = 'Shougo/Unite.vim'
+
+[[plugins]]
+repo = 'Shougo/vimfiler.vim'
+hook_add = '''
+		let g:vimfiler_as_default_explorer = 1
+		let g:vimfiler_safe_mode_by_default = 0
+'''
+
+[[plugins]]
+repo = 'thinca/vim-quickrun'
+hook_add = '''
+		let g:quickrun_config = {
+\			'tex' : {
+\					'command'	: 'latexmk',
+\					'exec'		: ['%c -pdfdvi -pvc %s']
+\			},
+\	}
+'''
+
+[[plugnins]]
+repo = 'lervag/vimtex'
+
+[[plugins]]
+repo = 'junegunn/seoul256.vim'
