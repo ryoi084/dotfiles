@@ -170,7 +170,7 @@ esac
 
 cd ~/
 # for neovim
-export XDG_CONFIG_HOME=~/.config
+export XDG_CONFIG_HOME=~/dotfiles
 
 export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
@@ -181,5 +181,5 @@ export DISPLAY=localhost:0.0
 export WWW_HOME="https://google.com"
 
 export PATH="/home/anaconda3/bin:$PATH"
-
+fcitx-autostart > /dev/null
 
