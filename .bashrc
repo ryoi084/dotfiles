@@ -116,11 +116,5 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export PATH="/home/anaconda3/bin:$PATH"
 exec /usr/sbin/zsh
-
-export GTK_IM_MODULE=fcitx
-export QT_IM_MODULE=fcitx
-export XMODIFIERS=@im=fcitx
-export DefaultIMModule=fcitx
 
