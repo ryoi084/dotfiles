@@ -102,3 +102,9 @@ colorscheme seoul256
 "pythonでの自動インデント
 filetype plugin indent on
 syntax on
+
+"terminal emulatorのcommand modeをESCに
+tnoremap <silent> <ESC> <C-\><C-n>
+
+"対応かっこの色を変更
+hi MatchParen ctermbg=1
