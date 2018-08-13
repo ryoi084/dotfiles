@@ -181,5 +181,4 @@ export DISPLAY=localhost:0.0
 export WWW_HOME="https://google.com"
 
 export PATH="/home/anaconda3/bin:$PATH"
-fcitx-autostart > /dev/null
 
