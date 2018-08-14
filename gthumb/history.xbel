@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/ryoi/DATA" added="2018-08-14T06:16:17Z" modified="2018-08-14T06:16:17Z" visited="2018-08-14T06:16:17.459338Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2018-08-14T06:16:17Z" count="2"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ryoi/DATA/p_wave_chiral/png/mu_0.00" added="2018-08-14T06:16:17Z" modified="2018-08-14T06:16:17Z" visited="2018-08-14T06:16:17.459345Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2018-08-14T06:16:17Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ryoi/DATA/p_wave_chiral/png" added="2018-08-14T06:16:17Z" modified="2018-08-14T06:16:17Z" visited="2018-08-14T06:16:17.459350Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2018-08-14T06:16:17Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ryoi/DATA/p_wave_chiral" added="2018-08-14T06:16:17Z" modified="2018-08-14T06:16:17Z" visited="2018-08-14T06:16:17.459354Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2018-08-14T06:16:17Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ryoi/DATA/dxy_wave/png/mu_0.90" added="2018-08-14T06:16:17Z" modified="2018-08-14T06:16:17Z" visited="2018-08-14T06:16:17.459357Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2018-08-14T06:16:17Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ryoi/DATA/dxy_wave/png/mu_0.30" added="2018-08-14T06:16:17Z" modified="2018-08-14T06:16:17Z" visited="2018-08-14T06:16:17.459361Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2018-08-14T06:16:17Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ryoi/DATA/dxy_wave/png/mu_0.00" added="2018-08-14T06:16:17Z" modified="2018-08-14T06:16:17Z" visited="2018-08-14T06:16:17.459365Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2018-08-14T06:16:17Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ryoi/DATA/dxy_wave/png" added="2018-08-14T06:16:17Z" modified="2018-08-14T06:16:17Z" visited="2018-08-14T06:16:17.459369Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2018-08-14T06:16:17Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ryoi/DATA/dxy_wave" added="2018-08-14T06:16:17Z" modified="2018-08-14T06:16:17Z" visited="2018-08-14T06:16:17.459372Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2018-08-14T06:16:17Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ryoi/CALC" added="2018-08-14T06:16:17Z" modified="2018-08-14T06:16:17Z" visited="2018-08-14T06:16:17.459375Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2018-08-14T06:16:17Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ryoi" added="2018-08-14T06:16:17Z" modified="2018-08-14T06:16:17Z" visited="2018-08-14T06:16:17.459378Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2018-08-14T06:16:17Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>
