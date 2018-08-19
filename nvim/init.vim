@@ -34,9 +34,8 @@ endif
 
 
 " ====一般設定====
-"文字コードをUFT-8に設定
+" UTF-8に設定
 set fenc=utf-8
-
 "バックアップファイルを作らない
 set nobackup
 "スワップファイルを作らない
@@ -81,7 +80,7 @@ set splitright
 "不可視文字を可視化
 set list listchars=tab:\_\_
 "Tab文字を半角スペースにする
-set tabstop=4
+set tabstop=2
 "現在の行を強調表示(縦)
 set cursorcolumn
 
