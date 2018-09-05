@@ -110,3 +110,5 @@ hi MatchParen ctermbg=1
 
 " 検索のときに変更点を表示
 set inccommand=split
+" texの自動変換を無効に
+let g:tex_conceal = ''
