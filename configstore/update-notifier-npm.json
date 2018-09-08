@@ -1,10 +1,10 @@
 {
 	"optOut": false,
-	"lastUpdateCheck": 1536127313683,
+	"lastUpdateCheck": 1536234047501,
 	"update": {
 		"latest": "6.4.1",
-		"current": "6.4.0",
-		"type": "patch",
+		"current": "6.3.0",
+		"type": "minor",
 		"name": "npm"
 	}
 }
