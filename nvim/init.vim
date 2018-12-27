@@ -90,13 +90,13 @@ set cursorcolumn
 
 
 " 透明化
-highlight Normal ctermbg=none
-highlight LineNr ctermbg=none
+"highlight Normal ctermbg=none
+"highlight LineNr ctermbg=none
 
 " colorscheme
-set background=dark
-" colorscheme hybrid
-colorscheme seoul256
+" set background=dark
+colorscheme crunchbang
+"colorscheme seoul256
 
 " pythonでの自動インデント
 filetype plugin indent on
@@ -112,3 +112,4 @@ hi MatchParen ctermbg=1
 set inccommand=split
 " texの自動変換を無効に
 let g:tex_conceal = ''
+

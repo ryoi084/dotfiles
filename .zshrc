@@ -182,3 +182,5 @@ export WWW_HOME="https://google.com"
 
 export PATH="/home/anaconda3/bin:$PATH"
 
+export XDG_RUNTIME_DIR=/tmp/runtime-ryoi
+export LIBGL_ALWAYS_INDIRECT=1

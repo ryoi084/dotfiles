@@ -39,7 +39,11 @@ hook_add = '''
 				\ 'colorscheme' : 'seoul256',
 				\ }
 '''
+[[plugins]]
+repo = 'simeji/winresizer'
 
 
 [[plugins]]
-repo = 'junegunn/seoul256.vim'
+#repo = 'junegunn/seoul256.vim'
+#repo = 'dim13/smyck.vim'
+repo = 'nightsense/vim-crunchbang'

@@ -3,4 +3,4 @@ $bibtex =   'pbibtex %O %B';
 $dvipdf =   'dvipdfmx %O -o %D %S';
 $pdf_mode = 3;
 $max_repeat =   5;
-$pdf_previewer = 'apvlv %O %S';
+$pdf_previewer = 'evince %O %S';
