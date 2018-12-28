@@ -11,6 +11,8 @@ export LANG=ja_JP.UTF-8
 # 色を使用出来るようにする
 autoload -Uz colors
 colors
+# windows上のフォルダを色指定
+export LS_COLORS='ow=01;34'
 
 # emacs 風キーバインドにする
 bindkey -e
@@ -120,9 +122,6 @@ bindkey '^R' history-incremental-pattern-search-backward
 ########################################
 # エイリアス
 
-alias la='ls -a'
-alias ll='ls -l'
-
 alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
@@ -178,7 +177,6 @@ export XMODIFIERS=@im=fcitx
 export DefaultIMModule=fcitx
 
 export DISPLAY=localhost:0.0
-export WWW_HOME="https://google.com"
 
 export PATH="/home/anaconda3/bin:$PATH"
 

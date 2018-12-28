@@ -90,13 +90,14 @@ set cursorcolumn
 
 
 " 透明化
-"highlight Normal ctermbg=none
-"highlight LineNr ctermbg=none
+highlight Normal ctermbg=none
+highlight LineNr ctermbg=none
 
 " colorscheme
-" set background=dark
-colorscheme crunchbang
+set background=dark
+"colorscheme crunchbang
 "colorscheme seoul256
+colorscheme smyck
 
 " pythonでの自動インデント
 filetype plugin indent on
