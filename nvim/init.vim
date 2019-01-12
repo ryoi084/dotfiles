@@ -65,13 +65,15 @@ set showmatch
 set smartindent
 " 編集行にアンダーライン
 set cursorline
-highlight CursorLine cterm=NONE ctermbg=0
+highlight CursorLine cterm=NONE ctermbg=100
 
-" 300集列を強調
+" 編集列にアンダーライン
 set cursorcolumn
 highlight CursorColumn cterm=NONE ctermbg=100
+
 " カーソルを画面の中央にする
 set scrolloff=30
+
 " 画面分割の方向
 set splitbelow
 set splitright
@@ -81,17 +83,10 @@ set splitright
 set list listchars=tab:\_\_
 " Tab文字を半角スペースにする
 set tabstop=2
-" 現在の行を強調表示(縦)
-set cursorcolumn
 
 " ClipBoardを使えるように
 " set clipboard=unnamed,autoselect
-
-
-
-" 透明化
-highlight Normal ctermbg=none
-highlight LineNr ctermbg=none
+set clipboard+=unnamedplus
 
 " colorscheme
 set background=dark

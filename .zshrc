@@ -26,7 +26,7 @@ SAVEHIST=1000000
 # 1行表示
 # PROMPT="%~ %# "
 # 2行表示
-PROMPT="%{${fg[green]}%}[%n@%m]%{${reset_color}%} %~
+PROMPT="%{%K{green}%F{magenta}%}[%n@%m]%{%f%k%} %K{green}%F{magenta}%~%f%k
 %# "
 
 
