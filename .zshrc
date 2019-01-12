@@ -167,7 +167,6 @@ esac
 # vim:set ft=zsh:
 #
 
-cd ~/
 # for neovim
 export XDG_CONFIG_HOME=~/dotfiles
 
