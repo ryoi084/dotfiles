@@ -95,7 +95,8 @@ highlight LineNr ctermbg=none
 
 " colorscheme
 set background=dark
-colorscheme seoul256
+" colorscheme seoul256
+colorscheme tatami
 
 " pythonでの自動インデント
 filetype plugin indent on
