@@ -26,7 +26,7 @@ SAVEHIST=1000000
 # 1行表示
 # PROMPT="%~ %# "
 # 2行表示
-PROMPT="%{%K{green}%F{magenta}%}[%n@%m]%{%f%k%}%F{green}>>%f %K{green}%F{magenta}%~%f%k
+PROMPT="%{%F{green}%}[%n@%m]%{%f%}%F{green}>>%f %F{green}%~%f
 %# "
 
 
@@ -170,12 +170,13 @@ esac
 # for neovim
 export XDG_CONFIG_HOME=~/dotfiles
 
+# for fcitx
 export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
 export XMODIFIERS=@im=fcitx
 export DefaultIMModule=fcitx
 
-export DISPLAY=localhost:0.0
+export DISPLAY=:10.0
 
 export PATH="/home/anaconda3/bin:$PATH"
 

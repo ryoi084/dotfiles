@@ -118,3 +118,4 @@ fi
 
 exec /usr/sbin/zsh
 
+export PATH="/home/anaconda3/bin:$PATH"
