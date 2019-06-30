@@ -168,7 +168,7 @@ esac
 #
 
 # for neovim
-export XDG_CONFIG_HOME=~/dotfiles
+export XDG_CONFIG_HOME=~/.dotfiles_cache
 
 # for fcitx
 export GTK_IM_MODULE=fcitx
@@ -176,9 +176,19 @@ export QT_IM_MODULE=fcitx
 export XMODIFIERS=@im=fcitx
 export DefaultIMModule=fcitx
 
-export DISPLAY=:10.0
+export PATH="/opt/intel/compilers_and_libraries_2019.3.199/linux/bin/intel64:$PATH"
 
-export PATH="/home/anaconda3/bin:$PATH"
+# for wsl
+# export DISPLAY=:10.0
 
 export XDG_RUNTIME_DIR=/tmp/runtime-ryoi
 export LIBGL_ALWAYS_INDIRECT=1
+
+export MKLROOT=/opt/intel/mkl
+export LD_LIBRARY_PATH=$MKLROOT/lib/intel64:/opt/intel/lib/intel64_lin:$LD_LIBRARY_PATH
+export LIBRARY_PATH=$MKLROOT/lib/intel64:$LIBRARY_PATH
+
+# for openmx
+export VerINTEL="2019.4.243"
+export PATH="/home/openmx/bin:$PATH"
+

@@ -19,6 +19,8 @@ for f in .??*; do
     ln -snfv ~/dotfiles/"$f" ~/
 done
 
+ln -s ~/dotfiles/nvim ~/.dotfiles_cache/nvim
+
 # [ -e ~/.gitconfig.local ] || cp ~/dotfiles/.gitconfig.local.template ~/.gitconfig.local
 
 # emacs set up

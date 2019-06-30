@@ -15,7 +15,7 @@ endif
 if dein#load_state(s:dein_dir)
 		call dein#begin(expand('~/.cache/dein'))
 
-		let g:rc_dir	= expand("~/dotfiles/nvim/")
+		let g:rc_dir	= expand("~/.dotfiles_cache/nvim/")
 		let s:toml		= g:rc_dir . '/dein.toml'
 		let s:lazy_toml = g:rc_dir . '/dein_lazy.toml'
 
@@ -91,7 +91,9 @@ set clipboard+=unnamedplus
 " colorscheme
 set background=dark
 " colorscheme seoul256
-colorscheme tatami
+" colorscheme tatami
+colorscheme kalisi
+
 
 " pythonでの自動インデント
 filetype plugin indent on
