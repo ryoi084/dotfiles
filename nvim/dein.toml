@@ -1,4 +1,7 @@
 [[plugins]]
+repo = 'Shougo/dein.vim'
+
+[[plugins]]
 repo = 'Shougo/vimproc.vim'
 
 [[plugins]]
@@ -33,21 +36,7 @@ hook_add = '''
 '''
 
 [[plugins]]
-repo = 'itchyny/lightline.vim'
-hook_add = '''
-		let g:lightline = {
-				\ 'colorscheme' : 'seoul256',
-				\ }
-'''
-[[plugins]]
-repo = 'simeji/winresizer'
-
-
-[[plugins]]
 repo = 'junegunn/seoul256.vim'
-
-[[plugins]]
-repo = 'machakann/vim-colorscheme-tatami'
 
 [[plugins]]
 repo = 'freeo/vim-kalisi'

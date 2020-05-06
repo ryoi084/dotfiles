@@ -51,8 +51,8 @@ set showcmd
 " ノーマルモードでIME解除
 inoremap <silent> <C-[> <ESC>:call system('fcitx-remote -c')<CR>
 " ファイル形式を判断
-au BufNewFIle,BufRead *.tex setf tex
-au BufNewFile,BufRead *.py setf python
+" au BufNewFIle,BufRead *.tex setf tex
+" au BufNewFile,BufRead *.py setf python
 
 " viewing
 " 行番号を表示
