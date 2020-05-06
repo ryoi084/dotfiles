@@ -168,7 +168,7 @@ esac
 #
 
 # for neovim
-export XDG_CONFIG_HOME=~/.dotfiles_cache
+export XDG_CONFIG_HOME=~/.dotfiles_config
 
 # for fcitx
 export GTK_IM_MODULE=fcitx
