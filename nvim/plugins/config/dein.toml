@@ -1,0 +1,60 @@
+[[plugins]]
+repo = 'Shougo/defx.nvim'
+hook_add = '''
+source ~/.config/nvim/plugins/defx.rc.vim
+'''
+
+[[plugins]]
+repo = 'Shougo/deoplete.nvim'
+hook_add = '''
+source ~/.config/nvim/plugins/deoplete.rc.vim
+'''
+
+[[plugins]]
+repo = 'roxma/nvim-yarp'
+
+[[plugins]]
+repo = 'roxma/vim-hug-neovim-rpc'
+
+
+[[plugins]]
+repo = 'Shougo/denite.nvim'
+hook_add = '''
+source ~/.config/nvim/plugins/denite.rc.vim
+'''
+
+[[plugins]]
+repo = 'Shougo/deol.nvim'
+hook_add = '''
+source ~/.config/nvim/plugins/deol.rc.vim
+'''
+
+[[plugins]]
+repo = 'tyru/caw.vim'
+hook_add = '''
+		nmap <C-_> <Plug>(caw:hatpos:toggle)
+		vmap <C-_> <Plug>(caw:hatpos:toggle)
+'''
+
+[[plugins]]
+repo = 'lervag/vimtex'
+hook_post_source = '''
+		let g:vimtex_view_general_viewer = 'zathura'
+		let g:vimtex_quickfix_open_on_warning = 0
+'''
+hook_source = '''
+		let g:vimtex_compiler_latexmk_engines = {
+      '_' : '
+      -pdflua
+      -interaction=nonstopmode
+      --shell-escape
+      -f
+      '
+      }
+'''
+on_ft 	= 'tex'
+
+
+[[plugins]]
+repo = 'freeo/vim-kalisi'
+

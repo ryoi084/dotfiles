@@ -1,0 +1,15 @@
+[[plugins]]
+repo = 'lervag/vimtex'
+hook_source = '''
+		let g:vimtex_compiler_latexmk_engines = {
+      '_' : '
+      -pdflua
+      -interaction=nonstopmode
+      --shell-escape
+      -f
+      '
+      }
+		let g:vimtex_view_general_viewer = 'zathura'
+		let g:vimtex_quickfix_open_on_warning = 0
+'''
+on_ft 	= 'tex'

@@ -1,3 +1,6 @@
+export PATH='/usr/local/sbin'
+export PATH='/usr/local/bin'
+export PATH='/usr/bin'
 
 # 少し凝った zshrc
 # License : MIT
